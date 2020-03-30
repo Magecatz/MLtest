@@ -19,4 +19,4 @@ forecast_cal = 'Adj. Close'
 
 df.fillna(-99999, inplace=True)
 
-forecast_out = int(math.ceil(0.1*len(df)))7
+forecast_out = int(math.ceil(0.1*len(df)))
